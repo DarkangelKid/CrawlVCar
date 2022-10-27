@@ -1,0 +1,2 @@
+pyodbc
+Scrapy==2.7.0
