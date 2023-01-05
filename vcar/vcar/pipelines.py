@@ -12,9 +12,9 @@ import uuid
 
 class VcarPipeline:
     def __init__(self):
-        self.conn = pyodbc.connect('Driver={SQL Server};'
+        self.conn = pyodbc.connect('Driver={ODBC Driver 18 for SQL Server};'
                                    'Server=10.10.10.50,1469;'
-                                   'Database=TD_DATAAPP_Application;'
+                                   'Database=TD_AppMobile_Camanager;'
                                    'UID=tdcongdan;'
                                    'PWD=Tandan@123;'
                                    'Trusted_Connection=no;')
